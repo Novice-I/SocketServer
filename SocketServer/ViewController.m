@@ -114,7 +114,7 @@ bool isRunning = NO;                        // 判断是否开始监听
             }
         } else {
             [s writeData:data withTimeout:-1 tag:1];
-            NSLog(@"测试 : %@",msg);
+            NSLog(@"服务器收到心跳 : %@",msg);
         }
     }
 }
